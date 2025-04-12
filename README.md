@@ -29,4 +29,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0766-flatten-a-multilevel-doubly-linked-list](https://github.com/mihnea2106/Leetcode/tree/master/0766-flatten-a-multilevel-doubly-linked-list) |
+## Stack
+|  |
+| ------- |
+| [0155-min-stack](https://github.com/mihnea2106/Leetcode/tree/master/0155-min-stack) |
+## Design
+|  |
+| ------- |
+| [0155-min-stack](https://github.com/mihnea2106/Leetcode/tree/master/0155-min-stack) |
 <!---LeetCode Topics End-->
