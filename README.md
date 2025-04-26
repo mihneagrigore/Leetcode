@@ -57,4 +57,24 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0199-binary-tree-right-side-view](https://github.com/mihnea2106/Leetcode/tree/master/0199-binary-tree-right-side-view) |
+## Array
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/mihnea2106/Leetcode/tree/master/0239-sliding-window-maximum) |
+## Queue
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/mihnea2106/Leetcode/tree/master/0239-sliding-window-maximum) |
+## Sliding Window
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/mihnea2106/Leetcode/tree/master/0239-sliding-window-maximum) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/mihnea2106/Leetcode/tree/master/0239-sliding-window-maximum) |
+## Monotonic Queue
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/mihnea2106/Leetcode/tree/master/0239-sliding-window-maximum) |
 <!---LeetCode Topics End-->
