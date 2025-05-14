@@ -16,6 +16,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0199-binary-tree-right-side-view](https://github.com/mihnea2106/Leetcode/tree/master/0199-binary-tree-right-side-view) |
 | [0257-binary-tree-paths](https://github.com/mihnea2106/Leetcode/tree/master/0257-binary-tree-paths) |
 | [0766-flatten-a-multilevel-doubly-linked-list](https://github.com/mihnea2106/Leetcode/tree/master/0766-flatten-a-multilevel-doubly-linked-list) |
+| [2121-find-if-path-exists-in-graph](https://github.com/mihnea2106/Leetcode/tree/master/2121-find-if-path-exists-in-graph) |
 ## Binary Tree
 |  |
 | ------- |
@@ -57,6 +58,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0199-binary-tree-right-side-view](https://github.com/mihnea2106/Leetcode/tree/master/0199-binary-tree-right-side-view) |
+| [2121-find-if-path-exists-in-graph](https://github.com/mihnea2106/Leetcode/tree/master/2121-find-if-path-exists-in-graph) |
 ## Array
 |  |
 | ------- |
@@ -77,4 +79,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/mihnea2106/Leetcode/tree/master/0239-sliding-window-maximum) |
+## Union Find
+|  |
+| ------- |
+| [2121-find-if-path-exists-in-graph](https://github.com/mihnea2106/Leetcode/tree/master/2121-find-if-path-exists-in-graph) |
+## Graph
+|  |
+| ------- |
+| [2121-find-if-path-exists-in-graph](https://github.com/mihnea2106/Leetcode/tree/master/2121-find-if-path-exists-in-graph) |
 <!---LeetCode Topics End-->
