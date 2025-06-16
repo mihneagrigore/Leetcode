@@ -18,6 +18,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0733-flood-fill](https://github.com/mihnea2106/Leetcode/tree/master/0733-flood-fill) |
 | [0766-flatten-a-multilevel-doubly-linked-list](https://github.com/mihnea2106/Leetcode/tree/master/0766-flatten-a-multilevel-doubly-linked-list) |
 | [2121-find-if-path-exists-in-graph](https://github.com/mihnea2106/Leetcode/tree/master/2121-find-if-path-exists-in-graph) |
+| [2438-find-closest-node-to-given-two-nodes](https://github.com/mihnea2106/Leetcode/tree/master/2438-find-closest-node-to-given-two-nodes) |
 ## Binary Tree
 |  |
 | ------- |
@@ -90,6 +91,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2121-find-if-path-exists-in-graph](https://github.com/mihnea2106/Leetcode/tree/master/2121-find-if-path-exists-in-graph) |
+| [2438-find-closest-node-to-given-two-nodes](https://github.com/mihnea2106/Leetcode/tree/master/2438-find-closest-node-to-given-two-nodes) |
 ## Matrix
 |  |
 | ------- |
