@@ -53,6 +53,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0020-valid-parentheses](https://github.com/mihnea2106/Leetcode/tree/master/0020-valid-parentheses) |
 | [0257-binary-tree-paths](https://github.com/mihnea2106/Leetcode/tree/master/0257-binary-tree-paths) |
+| [1146-greatest-common-divisor-of-strings](https://github.com/mihneagrigore/Leetcode/tree/master/1146-greatest-common-divisor-of-strings) |
 | [1894-merge-strings-alternately](https://github.com/mihneagrigore/Leetcode/tree/master/1894-merge-strings-alternately) |
 ## Backtracking
 |  |
@@ -98,4 +99,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0733-flood-fill](https://github.com/mihnea2106/Leetcode/tree/master/0733-flood-fill) |
+## Math
+|  |
+| ------- |
+| [1146-greatest-common-divisor-of-strings](https://github.com/mihneagrigore/Leetcode/tree/master/1146-greatest-common-divisor-of-strings) |
 <!---LeetCode Topics End-->
