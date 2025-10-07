@@ -34,6 +34,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0528-swapping-nodes-in-a-linked-list](https://github.com/mihnea2106/Leetcode/tree/master/0528-swapping-nodes-in-a-linked-list) |
+| [1894-merge-strings-alternately](https://github.com/mihneagrigore/Leetcode/tree/master/1894-merge-strings-alternately) |
 ## Doubly-Linked List
 |  |
 | ------- |
@@ -52,6 +53,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0020-valid-parentheses](https://github.com/mihnea2106/Leetcode/tree/master/0020-valid-parentheses) |
 | [0257-binary-tree-paths](https://github.com/mihnea2106/Leetcode/tree/master/0257-binary-tree-paths) |
+| [1894-merge-strings-alternately](https://github.com/mihneagrigore/Leetcode/tree/master/1894-merge-strings-alternately) |
 ## Backtracking
 |  |
 | ------- |
