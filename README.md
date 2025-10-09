@@ -69,6 +69,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/mihnea2106/Leetcode/tree/master/0239-sliding-window-maximum) |
+| [0605-can-place-flowers](https://github.com/mihneagrigore/Leetcode/tree/master/0605-can-place-flowers) |
 | [0733-flood-fill](https://github.com/mihnea2106/Leetcode/tree/master/0733-flood-fill) |
 | [1528-kids-with-the-greatest-number-of-candies](https://github.com/mihneagrigore/Leetcode/tree/master/1528-kids-with-the-greatest-number-of-candies) |
 ## Queue
@@ -104,4 +105,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1146-greatest-common-divisor-of-strings](https://github.com/mihneagrigore/Leetcode/tree/master/1146-greatest-common-divisor-of-strings) |
+## Greedy
+|  |
+| ------- |
+| [0605-can-place-flowers](https://github.com/mihneagrigore/Leetcode/tree/master/0605-can-place-flowers) |
 <!---LeetCode Topics End-->
