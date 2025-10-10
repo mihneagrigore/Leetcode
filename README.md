@@ -74,6 +74,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/mihneagrigore/Leetcode/tree/master/0238-product-of-array-except-self) |
 | [0239-sliding-window-maximum](https://github.com/mihnea2106/Leetcode/tree/master/0239-sliding-window-maximum) |
+| [0334-increasing-triplet-subsequence](https://github.com/mihneagrigore/Leetcode/tree/master/0334-increasing-triplet-subsequence) |
 | [0605-can-place-flowers](https://github.com/mihneagrigore/Leetcode/tree/master/0605-can-place-flowers) |
 | [0733-flood-fill](https://github.com/mihnea2106/Leetcode/tree/master/0733-flood-fill) |
 | [1528-kids-with-the-greatest-number-of-candies](https://github.com/mihneagrigore/Leetcode/tree/master/1528-kids-with-the-greatest-number-of-candies) |
@@ -113,6 +114,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Greedy
 |  |
 | ------- |
+| [0334-increasing-triplet-subsequence](https://github.com/mihneagrigore/Leetcode/tree/master/0334-increasing-triplet-subsequence) |
 | [0605-can-place-flowers](https://github.com/mihneagrigore/Leetcode/tree/master/0605-can-place-flowers) |
 ## Prefix Sum
 |  |
