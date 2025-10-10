@@ -1,33 +1,78 @@
+int max(int a, int b)
+{
+    if(a > b)
+        return a;
+    return b;
+}
+
 char* gcdOfStrings(char* str1, char* str2) {
-    int len1 = strlen(str1);
-    int len2 = strlen(str2);
+    int len1 = strlen(str1), len2 = strlen(str2);
+    char *final_result = malloc(sizeof(char) * max(len1, len2) + 1);
+    final_result[0] = '\0';
 
-    char *concat1 = malloc(len1 + len2 + 1);
-    char *concat2 = malloc(len1 + len2 + 1);
-    strcpy(concat1, str1);
-    strcat(concat1, str2);
-    strcpy(concat2, str2);
-    strcat(concat2, str1);
-    if (strcmp(concat1, concat2) != 0) {
-        free(concat1);
-        free(concat2);
-        char *empty = malloc(1);
-        empty[0] = '\0';
-        return empty;
+    if(len1 < len2) // use str1 to start the gcd
+    {
+        for(int i = 1; i <= len1; i++)
+        {
+            char *result = malloc(sizeof(char) * len2 + 1);
+            strncpy(result, str1, i);
+            result[i] = '\0';
+
+            // cannot be gcd if is not dividing the word
+            if(len1 % strlen(result) != 0)
+                goto NEXT;
+            if(len2 % strlen(result) != 0)
+                goto NEXT;
+
+            int j;
+
+            // test gcd in str1
+            for(j = 0; j < len1; j += strlen(result))
+                if(strncmp(str1 + j, result, strlen(result)) != 0)
+                    goto NEXT;
+
+            // test gcd in str2
+            for(j = 0; j < len2; j += strlen(result))
+                if(strncmp(str2 + j, result, strlen(result)) != 0)
+                    goto NEXT;
+
+            strcpy(final_result, result);
+
+            NEXT:
+        }
     }
-    free(concat1);
-    free(concat2);
 
-    int a = len1, b = len2;
-    while (b != 0) {
-        int tmp = b;
-        b = a % b;
-        a = tmp;
+    if(len1 >= len2) // use str2 to start the gcd
+    {
+        for(int i = 1; i <= len2; i++)
+        {
+            char *result = malloc(sizeof(char) * len1 + 1);
+            strncpy(result, str2, i);
+            result[i] = '\0';
+
+            // cannot be gcd if is not dividing the word
+            if(len1 % strlen(result) != 0)
+                goto NEXT2;
+            if(len2 % strlen(result) != 0)
+                goto NEXT2;
+
+            int j;
+
+            // test gcd in str1
+            for(j = 0; j < len1; j += strlen(result))
+                if(strncmp(str1 + j , result, strlen(result)) != 0)
+                    goto NEXT2;
+
+            // test gcd in str2
+            for(j = 0; j < len2; j += strlen(result))
+                if(strncmp(str2 + j, result, strlen(result)) != 0)
+                    goto NEXT2;
+
+            strcpy(final_result, result);
+
+            NEXT2:
+        }
     }
-    int gcd_len = a;
 
-    char *res = malloc(gcd_len + 1);
-    strncpy(res, str1, gcd_len);
-    res[gcd_len] = '\0';
-    return res;
+    return final_result;
 }
