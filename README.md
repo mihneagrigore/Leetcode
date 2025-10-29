@@ -83,6 +83,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0733-flood-fill](https://github.com/mihnea2106/Leetcode/tree/master/0733-flood-fill) |
 | [1046-max-consecutive-ones-iii](https://github.com/mihneagrigore/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1528-kids-with-the-greatest-number-of-candies](https://github.com/mihneagrigore/Leetcode/tree/master/1528-kids-with-the-greatest-number-of-candies) |
+| [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/mihneagrigore/Leetcode/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 ## Queue
 |  |
 | ------- |
@@ -94,6 +95,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0643-maximum-average-subarray-i](https://github.com/mihneagrigore/Leetcode/tree/master/0643-maximum-average-subarray-i) |
 | [1046-max-consecutive-ones-iii](https://github.com/mihneagrigore/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/mihneagrigore/Leetcode/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
+| [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/mihneagrigore/Leetcode/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -133,4 +135,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1046-max-consecutive-ones-iii](https://github.com/mihneagrigore/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
+## Dynamic Programming
+|  |
+| ------- |
+| [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/mihneagrigore/Leetcode/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 <!---LeetCode Topics End-->
