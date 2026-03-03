@@ -8,12 +8,12 @@ public:
 
     void push(int val) {
         if (s.empty()) {
-            s.push(0);       
-            minVal = val;    
+            s.push(0);
+            minVal = val;
         } else {
-            long long diff = (long long)val -(long long)minVal;
-            s.push(diff);   
-            if (diff < 0)    
+            long long diff = (long long)val - (long long)minVal;
+            s.push(diff);
+            if (diff < 0)
                 minVal = val;
         }
     }
@@ -22,7 +22,7 @@ public:
         long long diff = s.top();
         s.pop();
         if (diff < 0) {
-            minVal -= diff;  
+            minVal -= diff;
         }
     }
 
@@ -31,10 +31,8 @@ public:
         if (diff >= 0)
             return minVal + diff;
         else
-            return minVal;  
+            return minVal;
     }
 
-    int getMin() {
-        return minVal;
-    }
+    int getMin() { return minVal; }
 };
