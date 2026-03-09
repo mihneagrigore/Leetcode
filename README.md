@@ -83,6 +83,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0283-move-zeroes](https://github.com/mihneagrigore/Leetcode/tree/master/0283-move-zeroes) |
 | [0334-increasing-triplet-subsequence](https://github.com/mihneagrigore/Leetcode/tree/master/0334-increasing-triplet-subsequence) |
 | [0354-russian-doll-envelopes](https://github.com/mihneagrigore/Leetcode/tree/master/0354-russian-doll-envelopes) |
+| [0368-largest-divisible-subset](https://github.com/mihneagrigore/Leetcode/tree/master/0368-largest-divisible-subset) |
 | [0605-can-place-flowers](https://github.com/mihneagrigore/Leetcode/tree/master/0605-can-place-flowers) |
 | [0643-maximum-average-subarray-i](https://github.com/mihneagrigore/Leetcode/tree/master/0643-maximum-average-subarray-i) |
 | [0724-find-pivot-index](https://github.com/mihneagrigore/Leetcode/tree/master/0724-find-pivot-index) |
@@ -130,6 +131,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Math
 |  |
 | ------- |
+| [0368-largest-divisible-subset](https://github.com/mihneagrigore/Leetcode/tree/master/0368-largest-divisible-subset) |
 | [1146-greatest-common-divisor-of-strings](https://github.com/mihneagrigore/Leetcode/tree/master/1146-greatest-common-divisor-of-strings) |
 ## Greedy
 |  |
@@ -152,6 +154,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0354-russian-doll-envelopes](https://github.com/mihneagrigore/Leetcode/tree/master/0354-russian-doll-envelopes) |
+| [0368-largest-divisible-subset](https://github.com/mihneagrigore/Leetcode/tree/master/0368-largest-divisible-subset) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/mihneagrigore/Leetcode/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 ## Divide and Conquer
 |  |
@@ -162,6 +165,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/mihneagrigore/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0354-russian-doll-envelopes](https://github.com/mihneagrigore/Leetcode/tree/master/0354-russian-doll-envelopes) |
+| [0368-largest-divisible-subset](https://github.com/mihneagrigore/Leetcode/tree/master/0368-largest-divisible-subset) |
 ## Quickselect
 |  |
 | ------- |
