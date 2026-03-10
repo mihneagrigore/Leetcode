@@ -4,18 +4,16 @@ class Solution {
 public:
     int maxProfit(vector<int>& prices) {
 
-        int buy1, sell1, buy2, sell2;
-        buy1 = buy2 = INT_MAX;
-        sell1 = sell2 = INT_MIN;
+        int dp[3][100005] = {0};
 
-        for(int i = 0; i < prices.size(); ++i){
-            buy1 = min(buy1, prices[i]);
-            sell1 = max(sell1, prices[i] - buy1);
-            buy2 = min(buy2, prices[i] - sell1);
-            sell2 = max(sell2, prices[i] - buy2);
+        for(int k = 1; k < 3; k++) {
+            int minim = prices[0];
+            for(int i = 1; i < prices.size(); i++) {
+                minim = min(minim, prices[i] - dp[k-1][i-1]);
+                dp[k][i] = max(dp[k][i-1], prices[i] - minim);
+            }
         }
 
-        return sell2;
-
+        return dp[2][prices.size() - 1];
     }
 };
