@@ -1,51 +1,34 @@
 class Solution {
 
-private:
-    vector<int> dp, prev; 
-
 public:
     vector<int> largestDivisibleSubset(vector<int>& nums) {
-            sort(nums.begin(), nums.end());
+        sort(nums.begin(), nums.end());
+        vector<int> dp, prev, res;
+        int maxim_dp = 0, idx = 0;
+        dp.push_back(1);
+        prev.push_back(-1);
 
-            dp.resize(nums.size(), 0);
-            for(int i = 0; i < nums.size(); ++i) {
-                prev.push_back(-1);
-            }
-
-            for(int i = 0; i < nums.size(); ++i)
-                for(int j = i + 1; j < nums.size(); ++j) {
-                    if(nums[j] % nums[i] == 0 && dp[j] < dp[i] + 1) {
-                        dp[j] = dp[i] + 1;
-                        prev[j] = i;
-                    }
+        for(int i = 1; i < nums.size(); i++) {
+            dp.push_back(1);
+            prev.push_back(-1);
+            for(int j = 0; j < i; j++) {
+                if(nums[i] % nums[j] == 0) {
+                    if(dp[i] < dp[j] + 1)
+                        prev[i] = j;
+                    dp[i] = max(dp[i], dp[j] + 1);
                 }
-
-
-            int maxdp = -1, maxpos = -1;
-            for(int i = 0; i < nums.size(); ++i)
-                if(maxdp < dp[i]) {
-                    maxdp = dp[i];
-                    maxpos = i;
-                }
-
-            cout<<maxpos<<"\n";
-
-            for(int i = 0; i < nums.size(); ++i)
-                cout<<dp[i] << " ";
-
-            cout<<"\n";
-
-            for(int i = 0; i < nums.size(); ++i)
-                cout<<prev[i] << " ";
-
-            vector<int> res;
-            while(prev[maxpos] != -1) {
-                res.insert(res.begin(), nums[maxpos]);
-                maxpos = prev[maxpos];
             }
+            if(dp[i] > maxim_dp) {
+                maxim_dp = dp[i];
+                idx = i;
+            }
+        }
 
-            res.insert(res.begin(), nums[maxpos]);
+        while(idx != -1) {
+            res.push_back(nums[idx]);
+            idx = prev[idx];
+        }
 
-            return res;
+        return res;
     }
 };
