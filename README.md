@@ -71,6 +71,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0199-binary-tree-right-side-view](https://github.com/mihnea2106/Leetcode/tree/master/0199-binary-tree-right-side-view) |
+| [0322-coin-change](https://github.com/mihneagrigore/Leetcode/tree/master/0322-coin-change) |
 | [0733-flood-fill](https://github.com/mihnea2106/Leetcode/tree/master/0733-flood-fill) |
 | [1293-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/mihneagrigore/Leetcode/tree/master/1293-shortest-path-in-a-grid-with-obstacles-elimination) |
 | [2121-find-if-path-exists-in-graph](https://github.com/mihnea2106/Leetcode/tree/master/2121-find-if-path-exists-in-graph) |
@@ -82,6 +83,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0238-product-of-array-except-self](https://github.com/mihneagrigore/Leetcode/tree/master/0238-product-of-array-except-self) |
 | [0239-sliding-window-maximum](https://github.com/mihnea2106/Leetcode/tree/master/0239-sliding-window-maximum) |
 | [0283-move-zeroes](https://github.com/mihneagrigore/Leetcode/tree/master/0283-move-zeroes) |
+| [0322-coin-change](https://github.com/mihneagrigore/Leetcode/tree/master/0322-coin-change) |
 | [0334-increasing-triplet-subsequence](https://github.com/mihneagrigore/Leetcode/tree/master/0334-increasing-triplet-subsequence) |
 | [0354-russian-doll-envelopes](https://github.com/mihneagrigore/Leetcode/tree/master/0354-russian-doll-envelopes) |
 | [0368-largest-divisible-subset](https://github.com/mihneagrigore/Leetcode/tree/master/0368-largest-divisible-subset) |
@@ -155,6 +157,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/mihneagrigore/Leetcode/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
+| [0322-coin-change](https://github.com/mihneagrigore/Leetcode/tree/master/0322-coin-change) |
 | [0354-russian-doll-envelopes](https://github.com/mihneagrigore/Leetcode/tree/master/0354-russian-doll-envelopes) |
 | [0368-largest-divisible-subset](https://github.com/mihneagrigore/Leetcode/tree/master/0368-largest-divisible-subset) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/mihneagrigore/Leetcode/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
