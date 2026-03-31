@@ -66,6 +66,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Backtracking
 |  |
 | ------- |
+| [0037-sudoku-solver](https://github.com/mihneagrigore/Leetcode/tree/master/0037-sudoku-solver) |
 | [0257-binary-tree-paths](https://github.com/mihnea2106/Leetcode/tree/master/0257-binary-tree-paths) |
 ## Breadth-First Search
 |  |
@@ -78,6 +79,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 |  |
 | ------- |
+| [0037-sudoku-solver](https://github.com/mihneagrigore/Leetcode/tree/master/0037-sudoku-solver) |
 | [0064-minimum-path-sum](https://github.com/mihneagrigore/Leetcode/tree/master/0064-minimum-path-sum) |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/mihneagrigore/Leetcode/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
 | [0215-kth-largest-element-in-an-array](https://github.com/mihneagrigore/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
@@ -130,6 +132,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Matrix
 |  |
 | ------- |
+| [0037-sudoku-solver](https://github.com/mihneagrigore/Leetcode/tree/master/0037-sudoku-solver) |
 | [0064-minimum-path-sum](https://github.com/mihneagrigore/Leetcode/tree/master/0064-minimum-path-sum) |
 | [0733-flood-fill](https://github.com/mihnea2106/Leetcode/tree/master/0733-flood-fill) |
 | [1293-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/mihneagrigore/Leetcode/tree/master/1293-shortest-path-in-a-grid-with-obstacles-elimination) |
@@ -179,4 +182,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/mihneagrigore/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
+## Hash Table
+|  |
+| ------- |
+| [0037-sudoku-solver](https://github.com/mihneagrigore/Leetcode/tree/master/0037-sudoku-solver) |
 <!---LeetCode Topics End-->
