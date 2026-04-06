@@ -67,6 +67,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0037-sudoku-solver](https://github.com/mihneagrigore/Leetcode/tree/master/0037-sudoku-solver) |
+| [0046-permutations](https://github.com/mihneagrigore/Leetcode/tree/master/0046-permutations) |
 | [0257-binary-tree-paths](https://github.com/mihnea2106/Leetcode/tree/master/0257-binary-tree-paths) |
 ## Breadth-First Search
 |  |
@@ -80,6 +81,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0037-sudoku-solver](https://github.com/mihneagrigore/Leetcode/tree/master/0037-sudoku-solver) |
+| [0046-permutations](https://github.com/mihneagrigore/Leetcode/tree/master/0046-permutations) |
 | [0064-minimum-path-sum](https://github.com/mihneagrigore/Leetcode/tree/master/0064-minimum-path-sum) |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/mihneagrigore/Leetcode/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
 | [0215-kth-largest-element-in-an-array](https://github.com/mihneagrigore/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
