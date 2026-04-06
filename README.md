@@ -68,6 +68,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0037-sudoku-solver](https://github.com/mihneagrigore/Leetcode/tree/master/0037-sudoku-solver) |
 | [0046-permutations](https://github.com/mihneagrigore/Leetcode/tree/master/0046-permutations) |
+| [0077-combinations](https://github.com/mihneagrigore/Leetcode/tree/master/0077-combinations) |
 | [0257-binary-tree-paths](https://github.com/mihnea2106/Leetcode/tree/master/0257-binary-tree-paths) |
 ## Breadth-First Search
 |  |
