@@ -14,16 +14,17 @@ public:
         if(domain[i][j] != word[k])
             return false;
 
-             char tmp = domain[i][j];
-             domain[i][j] = '#';
-             int ok = back(domain, word, i+1, j, k+1) ||
-                        back(domain, word, i-1, j, k+1) ||  
-                        back(domain, word, i, j + 1, k+1) ||
-                        back(domain, word, i, j - 1, k+1);
-            domain[i][j] = tmp;
+        char tmp = domain[i][j];
+        domain[i][j] = '#';
+        int ok = back(domain, word, i+1, j, k+1) ||
+                back(domain, word, i-1, j, k+1) ||  
+                back(domain, word, i, j + 1, k+1) ||
+                back(domain, word, i, j - 1, k+1);
+        domain[i][j] = tmp;
 
-            if(ok)
-                return true;
+        if(ok)
+            return true;
+        
         return false;
     }
 
