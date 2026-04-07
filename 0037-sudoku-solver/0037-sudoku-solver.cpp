@@ -1,46 +1,44 @@
 class Solution {
 public:
-    bool pot_pune(vector<vector<char>> &board, int lin , int col, int x)
-    {
-      
-        char c=x+'0';
-        for(int i=0;i<9;i++)
-            {if(board[lin][i]==c) return false; //linie
-            if(board[i][col]==c) return false; //col
-            }
-        //pt patrat 
-        int xi=lin/3*3;
-        int xj=col/3*3;
-        for(int i=xi;i<xi+3;i++)
-            for(int j=xj;j<xj+3;j++)
-                if(board[i][j]==c)
-                    return false;
-        return true; 
-    }
-    bool bkt(vector<vector<char>>& board, int lin, int col)
-    {
-        if(lin==9)
-            return true;
-        if(col==9)
-            return bkt(board,lin+1,0);
-        if(board[lin][col]=='.')
-        {
-            for(int i=1;i<=9;i++){
+    bool good(const vector<vector<char>> &board, int i, int j) {
+        char val = board[i][j];
 
-                if(pot_pune(board,lin,col,i))
-                    {
-                        board[lin][col]=i+'0';
-                        if(bkt(board,lin,col+1))
-                            return true;
-                        board[lin][col]='.';
-                    }  
-            }
-            return false;
-        } else {
-            return bkt(board,lin,col+1);
+        for(int k = 0; k < 9; ++k)
+            if (k != i && board[k][j] == val)
+                return false;
+
+        for(int k = 0; k < 9; ++k)
+            if (k != j && board[i][k] == val)
+                return false;
+
+        int sqi = 3 * (i / 3);
+        int sqj = 3 * (j / 3);
+
+        for(int k = 0; k < 3; ++k)
+            for(int q = 0; q < 3; ++q)
+                if ((sqi + k != i || sqj + q != j) && board[sqi + k][sqj + q] == val)
+                    return false;
+
+        return true;
+    }
+
+    bool bkt(vector<vector<char>> &board, int i, int j) {
+        if(i == 9) return true;          
+        if(j == 9) return bkt(board, i + 1, 0);
+
+        if(board[i][j] != '.') 
+            return bkt(board, i, j + 1);  
+
+        for(char c = '1'; c <= '9'; ++c) {
+            board[i][j] = c;
+            if(good(board, i, j) && bkt(board, i, j + 1))
+                return true;              
+            board[i][j] = '.';          
         }
 
+        return false;                    
     }
+
     void solveSudoku(vector<vector<char>>& board) {
         bkt(board, 0, 0);
     }
