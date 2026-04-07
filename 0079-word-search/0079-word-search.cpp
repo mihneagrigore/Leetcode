@@ -3,13 +3,6 @@
 class Solution {
 public:
 
-    bool check(string result, string word) {
-        if(result.size() > word.size())
-            return false;
-
-        return (result == word);
-    }
-
     bool back(vector<vector<char>> &domain, string word, int i, int j, int k) {
 
         if(k == word.size())
