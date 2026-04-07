@@ -12,6 +12,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Depth-First Search
 |  |
 | ------- |
+| [0079-word-search](https://github.com/mihneagrigore/Leetcode/tree/master/0079-word-search) |
 | [0129-sum-root-to-leaf-numbers](https://github.com/mihnea2106/Leetcode/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0199-binary-tree-right-side-view](https://github.com/mihnea2106/Leetcode/tree/master/0199-binary-tree-right-side-view) |
 | [0257-binary-tree-paths](https://github.com/mihnea2106/Leetcode/tree/master/0257-binary-tree-paths) |
@@ -56,6 +57,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/mihnea2106/Leetcode/tree/master/0020-valid-parentheses) |
+| [0079-word-search](https://github.com/mihneagrigore/Leetcode/tree/master/0079-word-search) |
 | [0151-reverse-words-in-a-string](https://github.com/mihneagrigore/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0257-binary-tree-paths](https://github.com/mihnea2106/Leetcode/tree/master/0257-binary-tree-paths) |
 | [0345-reverse-vowels-of-a-string](https://github.com/mihneagrigore/Leetcode/tree/master/0345-reverse-vowels-of-a-string) |
@@ -69,6 +71,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0037-sudoku-solver](https://github.com/mihneagrigore/Leetcode/tree/master/0037-sudoku-solver) |
 | [0046-permutations](https://github.com/mihneagrigore/Leetcode/tree/master/0046-permutations) |
 | [0077-combinations](https://github.com/mihneagrigore/Leetcode/tree/master/0077-combinations) |
+| [0079-word-search](https://github.com/mihneagrigore/Leetcode/tree/master/0079-word-search) |
 | [0257-binary-tree-paths](https://github.com/mihnea2106/Leetcode/tree/master/0257-binary-tree-paths) |
 ## Breadth-First Search
 |  |
@@ -84,6 +87,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0037-sudoku-solver](https://github.com/mihneagrigore/Leetcode/tree/master/0037-sudoku-solver) |
 | [0046-permutations](https://github.com/mihneagrigore/Leetcode/tree/master/0046-permutations) |
 | [0064-minimum-path-sum](https://github.com/mihneagrigore/Leetcode/tree/master/0064-minimum-path-sum) |
+| [0079-word-search](https://github.com/mihneagrigore/Leetcode/tree/master/0079-word-search) |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/mihneagrigore/Leetcode/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
 | [0215-kth-largest-element-in-an-array](https://github.com/mihneagrigore/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0238-product-of-array-except-self](https://github.com/mihneagrigore/Leetcode/tree/master/0238-product-of-array-except-self) |
@@ -137,6 +141,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0037-sudoku-solver](https://github.com/mihneagrigore/Leetcode/tree/master/0037-sudoku-solver) |
 | [0064-minimum-path-sum](https://github.com/mihneagrigore/Leetcode/tree/master/0064-minimum-path-sum) |
+| [0079-word-search](https://github.com/mihneagrigore/Leetcode/tree/master/0079-word-search) |
 | [0733-flood-fill](https://github.com/mihnea2106/Leetcode/tree/master/0733-flood-fill) |
 | [1293-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/mihneagrigore/Leetcode/tree/master/1293-shortest-path-in-a-grid-with-obstacles-elimination) |
 ## Math
