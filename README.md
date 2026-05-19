@@ -18,6 +18,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0257-binary-tree-paths](https://github.com/mihnea2106/Leetcode/tree/master/0257-binary-tree-paths) |
 | [0733-flood-fill](https://github.com/mihnea2106/Leetcode/tree/master/0733-flood-fill) |
 | [0766-flatten-a-multilevel-doubly-linked-list](https://github.com/mihnea2106/Leetcode/tree/master/0766-flatten-a-multilevel-doubly-linked-list) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/mihneagrigore/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [2121-find-if-path-exists-in-graph](https://github.com/mihnea2106/Leetcode/tree/master/2121-find-if-path-exists-in-graph) |
 | [2438-find-closest-node-to-given-two-nodes](https://github.com/mihnea2106/Leetcode/tree/master/2438-find-closest-node-to-given-two-nodes) |
 ## Binary Tree
@@ -80,6 +81,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0199-binary-tree-right-side-view](https://github.com/mihnea2106/Leetcode/tree/master/0199-binary-tree-right-side-view) |
 | [0322-coin-change](https://github.com/mihneagrigore/Leetcode/tree/master/0322-coin-change) |
 | [0733-flood-fill](https://github.com/mihnea2106/Leetcode/tree/master/0733-flood-fill) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/mihneagrigore/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [1293-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/mihneagrigore/Leetcode/tree/master/1293-shortest-path-in-a-grid-with-obstacles-elimination) |
 | [2121-find-if-path-exists-in-graph](https://github.com/mihnea2106/Leetcode/tree/master/2121-find-if-path-exists-in-graph) |
 ## Array
@@ -125,6 +127,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/mihneagrigore/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0239-sliding-window-maximum](https://github.com/mihnea2106/Leetcode/tree/master/0239-sliding-window-maximum) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/mihneagrigore/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 ## Monotonic Queue
 |  |
 | ------- |
@@ -177,6 +180,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0354-russian-doll-envelopes](https://github.com/mihneagrigore/Leetcode/tree/master/0354-russian-doll-envelopes) |
 | [0368-largest-divisible-subset](https://github.com/mihneagrigore/Leetcode/tree/master/0368-largest-divisible-subset) |
 | [0552-student-attendance-record-ii](https://github.com/mihneagrigore/Leetcode/tree/master/0552-student-attendance-record-ii) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/mihneagrigore/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/mihneagrigore/Leetcode/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 ## Divide and Conquer
 |  |
@@ -196,4 +200,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0037-sudoku-solver](https://github.com/mihneagrigore/Leetcode/tree/master/0037-sudoku-solver) |
+## Graph Theory
+|  |
+| ------- |
+| [0787-cheapest-flights-within-k-stops](https://github.com/mihneagrigore/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
+## Shortest Path
+|  |
+| ------- |
+| [0787-cheapest-flights-within-k-stops](https://github.com/mihneagrigore/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 <!---LeetCode Topics End-->
