@@ -109,6 +109,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0733-flood-fill](https://github.com/mihnea2106/Leetcode/tree/master/0733-flood-fill) |
 | [1046-max-consecutive-ones-iii](https://github.com/mihneagrigore/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1293-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/mihneagrigore/Leetcode/tree/master/1293-shortest-path-in-a-grid-with-obstacles-elimination) |
+| [1514-path-with-maximum-probability](https://github.com/mihneagrigore/Leetcode/tree/master/1514-path-with-maximum-probability) |
 | [1528-kids-with-the-greatest-number-of-candies](https://github.com/mihneagrigore/Leetcode/tree/master/1528-kids-with-the-greatest-number-of-candies) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/mihneagrigore/Leetcode/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1833-find-the-highest-altitude](https://github.com/mihneagrigore/Leetcode/tree/master/1833-find-the-highest-altitude) |
@@ -131,6 +132,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0239-sliding-window-maximum](https://github.com/mihnea2106/Leetcode/tree/master/0239-sliding-window-maximum) |
 | [0743-network-delay-time](https://github.com/mihneagrigore/Leetcode/tree/master/0743-network-delay-time) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/mihneagrigore/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
+| [1514-path-with-maximum-probability](https://github.com/mihneagrigore/Leetcode/tree/master/1514-path-with-maximum-probability) |
 ## Monotonic Queue
 |  |
 | ------- |
@@ -208,9 +210,11 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0743-network-delay-time](https://github.com/mihneagrigore/Leetcode/tree/master/0743-network-delay-time) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/mihneagrigore/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
+| [1514-path-with-maximum-probability](https://github.com/mihneagrigore/Leetcode/tree/master/1514-path-with-maximum-probability) |
 ## Shortest Path
 |  |
 | ------- |
 | [0743-network-delay-time](https://github.com/mihneagrigore/Leetcode/tree/master/0743-network-delay-time) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/mihneagrigore/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
+| [1514-path-with-maximum-probability](https://github.com/mihneagrigore/Leetcode/tree/master/1514-path-with-maximum-probability) |
 <!---LeetCode Topics End-->
