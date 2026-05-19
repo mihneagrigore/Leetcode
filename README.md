@@ -17,6 +17,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0199-binary-tree-right-side-view](https://github.com/mihnea2106/Leetcode/tree/master/0199-binary-tree-right-side-view) |
 | [0257-binary-tree-paths](https://github.com/mihnea2106/Leetcode/tree/master/0257-binary-tree-paths) |
 | [0733-flood-fill](https://github.com/mihnea2106/Leetcode/tree/master/0733-flood-fill) |
+| [0743-network-delay-time](https://github.com/mihneagrigore/Leetcode/tree/master/0743-network-delay-time) |
 | [0766-flatten-a-multilevel-doubly-linked-list](https://github.com/mihnea2106/Leetcode/tree/master/0766-flatten-a-multilevel-doubly-linked-list) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/mihneagrigore/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [2121-find-if-path-exists-in-graph](https://github.com/mihnea2106/Leetcode/tree/master/2121-find-if-path-exists-in-graph) |
@@ -81,6 +82,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0199-binary-tree-right-side-view](https://github.com/mihnea2106/Leetcode/tree/master/0199-binary-tree-right-side-view) |
 | [0322-coin-change](https://github.com/mihneagrigore/Leetcode/tree/master/0322-coin-change) |
 | [0733-flood-fill](https://github.com/mihnea2106/Leetcode/tree/master/0733-flood-fill) |
+| [0743-network-delay-time](https://github.com/mihneagrigore/Leetcode/tree/master/0743-network-delay-time) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/mihneagrigore/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [1293-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/mihneagrigore/Leetcode/tree/master/1293-shortest-path-in-a-grid-with-obstacles-elimination) |
 | [2121-find-if-path-exists-in-graph](https://github.com/mihnea2106/Leetcode/tree/master/2121-find-if-path-exists-in-graph) |
@@ -127,6 +129,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/mihneagrigore/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0239-sliding-window-maximum](https://github.com/mihnea2106/Leetcode/tree/master/0239-sliding-window-maximum) |
+| [0743-network-delay-time](https://github.com/mihneagrigore/Leetcode/tree/master/0743-network-delay-time) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/mihneagrigore/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 ## Monotonic Queue
 |  |
@@ -203,9 +206,11 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Graph Theory
 |  |
 | ------- |
+| [0743-network-delay-time](https://github.com/mihneagrigore/Leetcode/tree/master/0743-network-delay-time) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/mihneagrigore/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 ## Shortest Path
 |  |
 | ------- |
+| [0743-network-delay-time](https://github.com/mihneagrigore/Leetcode/tree/master/0743-network-delay-time) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/mihneagrigore/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 <!---LeetCode Topics End-->
