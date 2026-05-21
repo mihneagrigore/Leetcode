@@ -1,56 +1,41 @@
 class Solution {
 public:
     int networkDelayTime(vector<vector<int>>& times, int n, int k) {
-        vector<bool>vis(n+1,false);
-        vector<int>lvl(n+1,0);
+        vector<vector<pair<int, int>>> adj(n+1);
+        vector<int> dist(n+1, INT_MAX);
 
-        vector<vector<pair<int,int>>>adjList(n+1);
-
-        int e = times.size();
-        for(int i=0;i<e;i++)
-        {
-            int u = times[i][0];
-            int v = times[i][1];
-            int wt = times[i][2];
-
-            adjList[u].push_back({v,wt});
+        for(auto it : times) {
+            adj[it[0]].push_back({it[1], it[2]});
         }
 
-        vector<int>dist(n+1,1e8);
-        dist[k]=0;
-        priority_queue<pair<int,int>, vector<pair<int,int>>, greater<pair<int,int>>>pq;
-        pq.push({0,k});
+        priority_queue<pair<int,int>, vector<pair<int,int>>, greater<pair<int,int>>> pq;
+        pq.push({0, k});
+        dist[k] = 0;
 
-        while(!pq.empty())
-        {
-            auto pr = pq.top();
+        while(!pq.empty()) {
+            int node = pq.top().second, cost = pq.top().first;
             pq.pop();
 
-            int currNode = pr.second;
-            int currTime = pr.first;
+            if(cost > dist[node]) continue;
 
-            // if(currTime>dist[currNode]) continue;
+            for(auto neigh : adj[node]) {
+                int nnode = neigh.first, ncost = neigh.second;
 
-            for(auto &neigh:adjList[currNode])
-            {
-                int neighNode = neigh.first;
-                int t = neigh.second;
-
-                if(currTime+t<dist[neighNode])
-                {
-                    dist[neighNode] = currTime + t;
-                    pq.push({dist[neighNode],neighNode});
+                if(ncost + cost < dist[nnode]) {
+                    dist[nnode] = ncost + cost;
+                    pq.push({dist[nnode], nnode});
                 }
             }
         }
 
-        int ans = INT_MIN;
-        for(int i=1;i<=n;i++)
-        {
-            if(dist[i]==1e8) return -1;
-            ans = max(ans,dist[i]);
+        int maxim = -1;
+        for(int i = 1; i <= n; ++i) {
+            if(dist[i] == INT_MAX)
+                return -1;
+            if(maxim < dist[i])
+                maxim = dist[i];
         }
 
-        return ans;
+        return maxim;
     }
 };
