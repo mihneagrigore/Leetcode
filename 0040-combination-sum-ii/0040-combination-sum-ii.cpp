@@ -1,45 +1,60 @@
 class Solution {
 public:
 
-    bool check(vector<int> result, int target) {
+    vector<vector<int>> result;
 
-        if(target == 0)
-            return true;
-        
-        return false;
+    int sum(vector<int> &v) {
+        int sum = 0;
+        for(int x : v)
+            sum += x;
+        return sum;
     }
 
-    void back(vector<vector<int>> &solution, vector<int> &result, vector<int> &domain, int target, int start)
-    {
-        if(check(result, target)) {
-            solution.push_back(result);
+    bool check(vector<int> &sol) {
+        for(int i = 0; i < sol.size() - 1; ++i)
+            if(sol[i] > sol[i+1])
+                return false;
+        return true;
+    }
+
+    void bkt(int start, int target, vector<int>& v, vector<int>& sol) {
+
+        if(target == 0) {
+            result.push_back(sol);
             return;
         }
 
-        for(int i = start; i < domain.size(); ++i) {
+        for(int i = start; i < v.size(); ++i) {
 
-            if(domain[i] > target)
-                break;
-
-            if(i > start && domain[i] == domain[i-1])
+            if(i > start && v[i] == v[i-1])
                 continue;
 
-            result.push_back(domain[i]);
+            if(v[i] > target)
+                break;
 
-            back(solution, result, domain, target - domain[i], i+1);
+            sol.push_back(v[i]);
 
-            result.pop_back();
+            bkt(i + 1, target - v[i], v, sol);
+
+            sol.pop_back();
         }
     }
 
     vector<vector<int>> combinationSum2(vector<int>& candidates, int target) {
-        vector<vector <int>> solution;
-        vector<int> result;
+        
+        // if(candidates.size() == 1 && candidates[0] == target) {
+        //     vector<vector<int>> res(1, vector<int>(1, target));
+        //     return res;
+        // }
+
+        result.clear();
 
         sort(candidates.begin(), candidates.end());
 
-        back(solution, result, candidates, target, 0);
+        vector<int> sol;
+        
+        bkt(0, target, candidates, sol);
 
-        return solution;
+        return result;
     }
 };
